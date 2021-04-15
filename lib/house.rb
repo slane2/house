@@ -30,7 +30,12 @@ class House
     end
 
     def recite
-    
+        nursery_rhyme = ""
+        lines = 0..11
+        lines.each do |line|
+            nursery_rhyme += line(line)
+        end
+        return  nursery_rhyme
     end
 
 end
