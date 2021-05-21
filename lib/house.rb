@@ -22,7 +22,7 @@ class House
         when 1
             lines[num - 1]
         when 2
-            lines[1]
+            lines[num - 1]
         when 3
             lines[2]
         when 4
