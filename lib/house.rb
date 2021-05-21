@@ -3,7 +3,9 @@ class House
     def lines
         [
             "This is the house that Jack built.\n",
-            "This is the malt that lay in the house that Jack built.\n"
+            "This is the malt that lay in the house that Jack built.\n",
+            "This is the rat that ate the malt that lay in the house that Jack built.\n",
+            "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         ]
     end
 
@@ -14,9 +16,9 @@ class House
         when 2
             lines[1]
         when 3
-            "This is the rat that ate the malt that lay in the house that Jack built.\n"
+            lines[2]
         when 4
-            "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+            lines[3]
         when 5
             "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         when 6
