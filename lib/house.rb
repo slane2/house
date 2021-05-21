@@ -2,7 +2,8 @@ class House
 
     def lines
         [
-            "This is the house that Jack built.\n"
+            "This is the house that Jack built.\n",
+            "This is the malt that lay in the house that Jack built.\n"
         ]
     end
 
@@ -11,7 +12,7 @@ class House
         when 1
             lines[0]
         when 2
-            "This is the malt that lay in the house that Jack built.\n"
+            lines[1]
         when 3
             "This is the rat that ate the malt that lay in the house that Jack built.\n"
         when 4
