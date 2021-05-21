@@ -1,5 +1,11 @@
 class House
 
+    def lines
+        [
+            
+        ]
+    end
+
     def line(num)
         case num
         when 1
