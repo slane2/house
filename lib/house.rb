@@ -6,7 +6,8 @@ class House
             "This is the malt that lay in the house that Jack built.\n",
             "This is the rat that ate the malt that lay in the house that Jack built.\n",
             "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n",
-            "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+            "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n",
+            "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         ]
     end
 
@@ -23,7 +24,7 @@ class House
         when 5
             lines[4]
         when 6
-            "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+            lines[5]
         when 7
             "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         when 8
