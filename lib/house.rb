@@ -24,23 +24,23 @@ class House
         when 2
             lines[num - 1]
         when 3
-            lines[2]
+            lines[num - 1]
         when 4
-            lines[3]
+            lines[num - 1]
         when 5
-            lines[4]
+            lines[num - 1]
         when 6
-            lines[5]
+            lines[num - 1]
         when 7
-            lines[6]
+            lines[num - 1]
         when 8
-            lines[7]
+            lines[num - 1]
         when 9
-            lines[8]
+            lines[num - 1]
         when 10
-            lines[9]
+            lines[num - 1]
         when 11
-            lines[10]
+            lines[num - 1]
         else
             lines[11]
         end
