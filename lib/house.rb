@@ -42,7 +42,7 @@ class House
         when 11
             lines[num - 1]
         else
-            lines[11]
+            lines[num - 1]
         end
     end
 
