@@ -20,7 +20,7 @@ class House
     def line(num)
         case num
         when 1
-            lines[0]
+            lines[num - 1]
         when 2
             lines[1]
         when 3
@@ -44,6 +44,9 @@ class House
         else
             lines[11]
         end
+    end
+
+    def phrase
     end
 
     def recite
