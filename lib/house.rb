@@ -5,9 +5,9 @@ class House
 
     def pronoun
         if @pirate_or_not
-            "Thar be"
+            "Thar be "
         else
-            "This is"
+            "This is "
         end
     end
 
@@ -55,8 +55,9 @@ class House
             lines.last(num).join(" ")
         end
     end
+    
     def line(num)
-        "This is #{phrase(num)}the house that Jack built.\n"
+        "#{pronoun}#{phrase(num)}the house that Jack built.\n"
     end
 
     def recite
