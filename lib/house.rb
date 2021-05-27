@@ -1,9 +1,12 @@
 class House
     def phrase(num)
-        lines = [""]
+        lines = [
+            "",
+            "the malt that lay in "
+        ]
         case num
         when 2
-            "the malt that lay in "
+            lines[num]
         when 3
             "the rat that ate the malt that lay in "
         when 4
