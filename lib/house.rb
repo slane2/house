@@ -1,7 +1,4 @@
 class House
-    def initializer(pirate_or_not)
-        @pirate_or_not = pirate_or_not
-    end
 
     def pronoun
         "This is "
