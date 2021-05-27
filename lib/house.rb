@@ -1,4 +1,16 @@
 class House
+    def initializer(pirate_or_not)
+        @pirate_or_not = pirate_or_not
+    end
+
+    def pronoun
+        if @pirate_or_not
+            "Thar be"
+        else
+            "This is"
+        end
+    end
+
     def phrase(num)
         lines = [
             "",
