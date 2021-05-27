@@ -5,8 +5,10 @@ class House
             "the malt that lay in "
         ]
         case num
+        when 1
+            lines[num - 1]
         when 2
-            lines[num]
+            lines[num - 1]
         when 3
             "the rat that ate the malt that lay in "
         when 4
