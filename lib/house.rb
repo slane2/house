@@ -4,11 +4,7 @@ class House
     end
 
     def pronoun
-        if @pirate_or_not
-            "Thar be "
-        else
-            "This is "
-        end
+        "This is "
     end
 
     def phrase(num)
@@ -64,4 +60,10 @@ class House
         (1..12).collect { |i| line(i) }.join("\n")
     end
 
+end
+
+class Pirate < House
+    def pronoun
+        "Thar be "
+    end
 end
