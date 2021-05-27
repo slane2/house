@@ -19,20 +19,7 @@ class House
             "the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in ",
             "the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         ]
-        chunks = [
-            "",
-            "the malt that lay in ",
-            "the rat that ate the ",
-            "the cat that killed the ",
-            "the dog that worried the ",
-            "the cow with the crumpled horn that tossed the ",
-            "the maiden all forlorn that milked the ",
-            "the man all tattered and torn that kissed the ",
-            "the priest all shaven and shorn that married the ",
-            "the rooster that crowed in the morn that woke the ",
-            "the farmer sowing his corn that kept the ",
-            "the horse and the hound and the horn that belonged to the "
-        ]
+
         case num
         when 1
             lines[num - 1]
@@ -77,4 +64,21 @@ class Pirate < House
     def pronoun
         "Thar be "
     end
+end
+
+class Random < House
+    chunks = [
+        "",
+        "the malt that lay in ",
+        "the rat that ate the ",
+        "the cat that killed the ",
+        "the dog that worried the ",
+        "the cow with the crumpled horn that tossed the ",
+        "the maiden all forlorn that milked the ",
+        "the man all tattered and torn that kissed the ",
+        "the priest all shaven and shorn that married the ",
+        "the rooster that crowed in the morn that woke the ",
+        "the farmer sowing his corn that kept the ",
+        "the horse and the hound and the horn that belonged to the "
+    ]
 end
