@@ -123,4 +123,9 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
     assert_equal expected, Pirate.new.recite
   end
 
+  def test_random_song
+    expected = RandomHouse.new.recite
+    assert_equal expected, expected
+  end
+
 end

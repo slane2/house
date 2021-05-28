@@ -43,6 +43,6 @@ end
 
 class RandomHouse < House
     def lines
-        super.scramble
+        super.shuffle
     end
 end
