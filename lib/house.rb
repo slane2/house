@@ -4,8 +4,8 @@ class House
         "This is "
     end
 
-    def phrase(num)
-        lines = [
+    def lines
+        [
             "the horse and the hound and the horn that belonged to",
             "the farmer sowing his corn that kept",
             "the rooster that crowed in the morn that woke",
@@ -19,7 +19,9 @@ class House
             "the malt that lay in",
             ""
         ]
+    end
 
+    def phrase(num)
         lines.last(num).join(" ")
     end
     
@@ -40,18 +42,7 @@ class Pirate < House
 end
 
 class RandomHouse < House
-    chunks = [
-        "the horse and the hound and the horn that belonged to the ",
-        "the farmer sowing his corn that kept the ",
-        "the rooster that crowed in the morn that woke the ",
-        "the priest all shaven and shorn that married the ",
-        "the man all tattered and torn that kissed the ",
-        "the maiden all forlorn that milked the ",
-        "the cow with the crumpled horn that tossed the ",
-        "the dog that worried the ",
-        "the cat that killed the ",
-        "the rat that ate the ",
-        "the malt that lay in ",
-        ""
-    ]
+    def lines
+
+    end
 end
