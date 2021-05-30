@@ -46,3 +46,13 @@ class RandomHouse < House
         super.shuffle
     end
 end
+
+class RandomPirateHouse < House
+    def pronoun
+        "Thar be "
+    end
+
+    def lines
+        super.shuffle
+    end
+end
